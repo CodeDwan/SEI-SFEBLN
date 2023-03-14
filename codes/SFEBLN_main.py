@@ -35,7 +35,7 @@ if __name__ == "__main__":
     print('-------------------SFEBLN----------------------')
     fftn = 32
     N4 = 100
-    _, _, _, _, outputlabel = BLS_SP(x_train_fft, y_train, x_test_fft, y_test, x_sp, s, C, N1, N2, N3, fftn, N4)
+    _, _, _, _, outputlabel = SFEBLN(x_train_fft, y_train, x_test_fft, y_test, x_sp, s, C, N1, N2, N3, fftn, N4)
 
     # plot confusion matrix
     if picflag:
