@@ -197,7 +197,7 @@ def SFEBLN(train_x, train_y, test_x, test_y, x_sp, s, c, N1, N2, N3, fftn, N_SP)
     OutputOfEnhanceLayer = tansig(tempOfOutputOfEnhanceLayer * parameterOfShrink)
 
     # 生成信号处理节点SP
-    train_x_complex = real2complex(train_x)
+    train_x_complex = real2complex(x_sp)
     x_fft = sp_fft(train_x_complex, n=fftn)
     x_fft = preprocessing.scale(x_fft, axis=1)
     x_dct = sp_dct(train_x_complex, n=fftn)
