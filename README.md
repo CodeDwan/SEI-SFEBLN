@@ -14,4 +14,4 @@ Abstract—Emerging wireless networks may suffer severe security threats due to 
 
 \bibitem{SFEBLN}
 
-Y. Zhang, Y. Peng, J. Sun, G. Gui, Y. Lin, and S. Mao,  ``GPU-Free Specific Emitter Identification Using Signal Feature Embedded Broad Learning,'' \emph{IEEE Internet Things J.}, early access, doi: 10.1109/JIOT.2023.3257479
+Y. Zhang, Y. Peng, J. Sun, G. Gui, Y. Lin, and S. Mao,  ``GPU-Free Specific Emitter Identification Using Signal Feature Embedded Broad Learning,'' \emph{IEEE Internet Things J.}, vol. 10, no. 14, pp. 13028--13039, 2023,
